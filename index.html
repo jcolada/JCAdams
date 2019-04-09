@@ -1,0 +1,326 @@
+﻿s<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>JCAda.ms</title>
+        <link rel="stylesheet" type="text/css" href="ss/styles.css">
+        <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css"/>
+
+    </head>
+
+    <body>      
+        <!-- banner -->
+        
+        <div id="myContainer"> <!-- style="width: 90%" -->
+            <div id="thing">
+                <img class="rndImg" src="pics/me.jpg">
+                <div class="overlay">
+                    <div class="h_text" style="color: white">
+                        click anywhere <br>
+                        in this banner!
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div style="position: relative">
+                <p style="color: black">
+                    click anywhere in here :D
+                </p>
+            </div> -->
+        </div> 
+        <!-- <div id="content">
+        </div> -->
+    
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top mx-auto rounded-top"> <!--style="width: 90%" -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">JCA</a> <!-- logo --> <!-- Note: NEED PNG LOGO -->
+                <button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarRespnsive">
+                    <!-- links -->
+                    <ul class="navbar-nav ml-auto navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Work History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Project History</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">Project History</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">Hobbies</a>
+                        </li>
+                    </ul>      
+                    
+                    <!-- Search bar, do i care about this?
+                    <ul class="nav navbar-nav ml-auto"></ul>
+                        <li>
+                            <form class="form-inline navbar-right" action="/action_page.php">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                                <button class="btn btn-success" type="submit">Search</button>
+                            </form>
+                        </li>
+                    </ul>-->
+
+                </div>
+            </div>
+        </nav> <!-- end nav bar-->
+
+        <div id="slides" class ="carousel slide padding" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pics/bg1_1.jpg">
+                    <div class="carousel-caption">
+                        <h1 class="display-2">Hi, I'm Justin </h1>
+                        <p>
+                            I don't really know what I'm doing... <br>
+                            But I'm working on figuring it out!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--
+        <div class="img_container center_items mx-auto d-block">
+            <img class="img-fluid" src="pics/bg1_1.jpg">
+            <div class="bottom-right"> 
+                
+                <p>
+                    I don't really know what I'm doing <br>
+                    But I'm working on figuring it out!
+                </p>
+            </div>
+        </div> -->
+        
+        <div class="container-fluid padding">
+            <div class="row padding" id="MP_AM" style="padding-left: 10%; padding-right: 10%">
+                <div class="col-lg-6">
+                    <h1> About Me</h1>
+                    <p>
+                        I graduated from San Diego State University in 2016 and 
+                        have been trying to figure out what to do with the rest of my life. 
+                        I was born in San Diego but moved out to Chicago, IL where I completed 5th - 8th grade when my Dad got stationed there 
+                        for the Navy. I then moved to Hawaii my freshman year of high school 
+                        after my Dad finished his rotation(?) in Chicago. 
+                        I only stayed in Hawaii for a year and ended up returning to San Diego to finish high school. 
+                        After high school I began school at SDSU with a mechanical engineering major, 
+                        I ended up switching out of ME into CompE because tech interested me more. 
+                        While at SDSU I became involved with the professional service fraternity APO. 
+                        At APO I took on executive board roles, vice president of membership. Post college has been quite the struggle. 
+                        I managed turn my college internship into a full time job which I stayed at for two years. 
+                        In the end I learned the DoD work is just not for me and I have to put myself out there to try something new. 
+                        My experience so far has primarily been in testing, and I am hoping to eventually get into software development. 
+                        At what kind of company? I am really not sure. 
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="pics/me_2_.png" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+
+
+        <!--
+        <div class = "center_items mx-auto d-block">
+            <div class= "row">
+                <div class="col-sm-6">
+                    <img class="img-fluid rounded" src="pics/me_2_.png"></div>
+                <div class="col-sm-6">
+                    <h1 class="hvtca">hi.</h3>
+                    <p>
+                        My name is Justin, I'm a 25 y/o Computer Engineering graduate from San Diego State University.
+                    </p>
+                </div>
+            </div>
+
+        </div> -->
+    <hr class="style1">
+        <div class="container-fluid padding">
+            <div class="row padding justify-content-md-center" id="MP_WH"> 
+                <div class="col-4 border border-secondary" style="height: 600px; border-top-left-radius: 10px; border-bottom-left-radius: 10px">
+                    <h1>Work History</h1>
+                <!-- main section should be stand alone, fixed height, scroll bar if necessary?-->
+                    <div id="workTPG" style="display:blockx">
+                        <ul>
+                            <li>
+                                Develops C# automation for Windows and web applications for functional and regression testing
+                            </li>
+                            <li>
+                                Collaborates with developers and project managers to ensure project results meet business expectations
+                            </li>
+                            <li>
+                                Creates defect reports and conducts testing on a triage team to ensure bug fixes are deployed quickly
+                            </li>
+                            <li>
+                                Assists in the manual testing and deployment of software to customers in a CI/CD environment
+                            </li>
+                            <li>
+                                Documents and maintains test cases to ensure reusability
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="workKES" style="display:none">
+                        <ul>
+                            <li>
+                                Lead for automation framework design and development of multiple military applications and systems
+                            </li>
+                            <li>
+                                Executed and debugged automated functional tests of systems on board Navy ships
+                            </li>
+                            <li>
+                                Acted as a liaison between contractors and US Govt employees to ensure a productive work environment
+                            </li>
+                            <li>
+                                Created training materials for project team and clients to create and execute tests
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="workSW" style="display:none">
+                        <ul>
+                            <li>
+                                Developed automation functional tests of a Naval Computer System (CANES)
+                            </li>
+                            <li>
+                                Created a management database to track the status of system installation and current state
+                            </li>
+                            <li>
+                                Completed research and analysis and presented findings to gain funding for automation test initiative
+                            </li>
+                            <li>
+                                Updated a webpage to improve the user interface for department news and employee awards
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+           
+
+                 <!-- separate row to show icons + positions, all on same row at max res-->
+                <div class="col-4">
+                    <div class="row padding border border-primary" id="dbtnTPG" style="height: 200px; border-top-right-radius: 10px">
+                        <img src="pics/work/tpg.jpg" class="workImg"> <p class="workText">July 2018 - Present
+                            <br> Santa Barbara Tax Products Group
+                            <br> QA Engineer                         
+                        </p> </div> 
+                    <div class="row padding border border-secondary" id="dbtnKES" style="height: 200px">
+                        <img src="pics/work/kes.jpg" class="workImg">  <p class="workText">May 2016 - July 2018
+                            <br> SPAWAR (Contracted via Koam Engineering Systems)
+                            <br> Computer Systems Engineer
+                        </p></div> 
+                    <div class="row padding border border-secondary" id="dbtnSW" style="height: 200px; border-bottom-right-radius: 10px"> 
+                        <img src="pics/work/spawar.png" class="workImg"> <p class="workText">May 2015 - March 2016
+                            <br> SPAWAR (Contracted via SDSU Research Foundation)
+                            <br> Fleet Support Analyst
+                        </p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Work history -->
+        <!-- 
+            PROVEN RECRUITING (TPG) - QA Engineer - July 2018 - Present
+                
+
+            KES (SPAWAR) - Computer Systems Engineer - May 2016 - July 2018
+                
+
+            SDSURF(SPAWAR) - Fleet Support Analyst - May 2015 - March 2016
+
+
+            GET MARKETING (MCX MIRAMAR / HP / APPLE) - Product Demonstrator - Aug 2014 - July 2015
+
+
+            SD COUNTY JUVENILE PROBATION DEPARTMENT - Student Worker - May 2012 - Jan 2013
+
+
+            <!--Do I want to do some kind of carousel thing here? maybe a dropdown? 
+                Icon's for each company at the bottom, 
+                    with the top item being whatever was clicked on by user? 
+                    Maybe icon + position?
+
+        -->
+
+        <!-- Project history -->
+
+        <!--
+            GIT HUB LINK
+            wtf else am i going to put here lol
+
+        -->
+        <br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  
+        <br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  
+        <br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  
+
+        <!-- Hobbies -->
+        <div class="container-fluid padding" id="hobbies">
+            <div class="row padding">
+                <div class="col-lg-6">
+                    <h1> Hobbies</h1>
+                    <p>
+                        
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="#" class="img-fluid"> <!-- reel of clips from hobbies -->
+                </div>
+            </div>
+            <div class="row padding">
+                <!-- list all hobbies here, with link to separate HTML pages in this section? -->
+            </div>
+        </div>
+    
+        <!-- 
+            Video Games (link to twitch?)
+            Sports (Vavi volleyball champion pics, flight action)
+            Video Editing
+            My Car
+            My Bike
+            Dance?
+
+            Note: would be cool to have short film reel that plays of like 2-3 seconds from each hobby?
+            -Should I link out to separate HTML pages for each hobby? to not clutter the main page?
+        -->
+
+
+        <!-- footer -->
+
+        <!-- social media links
+        -FB
+        -Insta
+        -Blogspot
+        -Twitter
+        -GitHub
+        -Youtube
+        -Yelp (lol)
+        -Twitch
+        -
+        -->
+
+        <!-- end of page -->
+        <!-- Latest compiled and minified CSS 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">    
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+
+        <script src="scripts/myjs.js"></script>
+        <script src="scripts/workdisplay.js"></script>
+    </body>
+
+    
+</html>
